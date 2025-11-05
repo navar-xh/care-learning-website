@@ -40,9 +40,6 @@
 /*******************************************/
 
 @media only screen and (max-width: 768px) {
-  header {
-    display: none;
-  }
   h1 {
     font-size: 25px;
     line-height: normal;
@@ -85,4 +82,30 @@
   .layout-contents {
     text-align: center;
   }
+
+  .form-sec .bottom-txt h2 {
+    font-size: 58px;
+    line-height: normal;
+    letter-spacing: 0;
+  }
+
+  .logo-col a {
+    font-size: 24px !important;
+    white-space: nowrap;
+  }
+  header {
+    padding: 20px 0;
+  }
+
+  .mobil-menu li a {
+    text-align: center;
+  }
+
+  .head-dropdown {
+    z-index: 2;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto;
+  }
+
 }
