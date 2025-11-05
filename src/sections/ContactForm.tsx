@@ -66,7 +66,7 @@ function ContactForm() {
               height={800}
               className="w-full"
             />
-            <div className="download-btn-row flex items-center justify-center gap-5 absolute bottom-10 left-0 right-0 mx-auto z-2 w-fit">
+            <div className="download-btn-row block md:flex items-center justify-center gap-5 absolute bottom-10 left-0 right-0 mx-auto z-2 w-fit">
               <Link href='' className="gradient-border download-inner-btn">
                 <Image
                   src='/images/btn-gplay.svg'
